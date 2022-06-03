@@ -1,0 +1,26 @@
+.exercice-01{
+    background: #e3dbdb;
+    padding: 10px;
+
+}
+
+
+legend{
+    font-size: large;
+    color: #e3dbdb;
+    
+}
+
+body{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form{
+    text-align: center;
+}
+
+fieldset label{
+    display: block;
+    margin: 0 0 10px 0;
+}

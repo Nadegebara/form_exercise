@@ -5,13 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
-    <style>
-        .exercice-01{
-            background: #dad5d5;
-            padding: 10px;
-        }
-    </style>
+<link rel="stylesheet" href="./form01.css">
+    
 </head>
 <body>
    <div class="exercice-01">
@@ -25,8 +20,45 @@
         - couleur <br>
         - taille <br>
         - photo <br>
-        - date d'ajout <br
+        - date d'ajout <br>
     </p>
    </div>
+
+   <form>
+    <fieldset>
+        <legend>Ordinateur Marque ASUS</legend>
+                <label>
+                    <div>Nom</div>
+                <input type="text" name="name">    
+            </label>
+            <label>
+                <div>Description</div>
+            <input type="text">    
+        </label>
+            <label>
+                <div>Prix</div>
+                <input type="text">    
+            </label>
+    
+                <label>
+                    <div>Couleur</div>
+                <input type="text">    
+            </label>
+            <label>
+                <div>Taille</div>
+            <input type="text">    
+          </label>
+          <label>
+            <div>Photo</div>
+            <input type="image" name="image Asus">
+          </label>
+          <label>
+              <div>Date d'ajout</div>
+              <input type="date">
+          </label>
+
+    </fieldset>
+    <button type="submit">Envoyer</button>
+</form>
 </body>
 </html>

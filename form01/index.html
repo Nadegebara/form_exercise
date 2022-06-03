@@ -1,64 +1,68 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-<link rel="stylesheet" href="./form01.css">
-    
+    <link rel="stylesheet" href="./form01.css">
+
 </head>
+
 <body>
-   <div class="exercice-01">
-    <h1>Excercie Formulaire 01</h1>
-    <p>
-        Créer un formulaire d'enregistement d'un produit. <br>
-        Un produit possède les champs suivants : <br>
-        - nom <br>
-        - description <br>
-        - prix <br>
-        - couleur <br>
-        - taille <br>
-        - photo <br>
-        - date d'ajout <br>
-    </p>
-   </div>
+    <div class="exercice-01">
+        <h1>Excercie Formulaire 01</h1>
+        <p>
+            Créer un formulaire d'enregistement d'un produit. <br>
+            Un produit possède les champs suivants : <br>
+            - nom <br>
+            - description <br>
+            - prix <br>
+            - couleur <br>
+            - taille <br>
+            - photo <br>
+            - date d'ajout <br>
+        </p>
+    </div>
 
-   <form>
-    <fieldset>
-        <legend>Ordinateur Marque ASUS</legend>
-                <label>
-                    <div>Nom</div>
-                <input type="text" name="name">    
-            </label>
-            <label>
-                <div>Description</div>
-            <input type="text">    
-        </label>
-            <label>
-                <div>Prix</div>
-                <input type="text">    
-            </label>
-    
-                <label>
-                    <div>Couleur</div>
-                <input type="text">    
-            </label>
-            <label>
-                <div>Taille</div>
-            <input type="text">    
-          </label>
-          <label>
-            <div>Photo</div>
-            <input type="image" name="image Asus">
-          </label>
-          <label>
-              <div>Date d'ajout</div>
-              <input type="date">
-          </label>
+    <form>
+        <fieldset>
+            <legend>Ordinateur Marque ASUS</legend>
+            <div>
+                <label>Nom</label>
+                <input type="text" name="name">
+            </div>
+            <div>
+                <label>Description</label>
+               <textarea name="description" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <label>Prix</label>
+                <input type="text">
+            </div>
 
-    </fieldset>
-    <button type="submit">Envoyer</button>
-</form>
+            <div>
+                <label>Couleur</label>
+                <input type="text">
+            </div>
+            <div>
+                <label>Taille</label>
+                <input type="number">
+            </div>
+            <div>
+                <label>Photo</label>
+                <input type="file" name="image Asus">
+            </div>
+            <div>
+                <label>Date d'ajout</label>
+                <input type="date">
+            </div>
+            <button type="submit">Envoyer</button>
+
+        </fieldset>
+
+    </form>
 </body>
+
 </html>

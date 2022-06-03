@@ -6,9 +6,9 @@
 
 
 legend{
-    font-size: large;
-    color: #e3dbdb;
-    
+    font-size: 25px;
+    color: #a94747;
+
 }
 
 body{
@@ -17,10 +17,23 @@ body{
 }
 
 form{
-    text-align: center;
+    
+    width: 400px;
+    margin: 0 auto;
 }
 
-fieldset label{
-    display: block;
+form input, form textarea{
+    width: 425px;
+    border-radius: 5px;
+}
+
+fieldset div{
+    /* display: block; */
     margin: 0 0 10px 0;
+}
+
+fieldset div label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 3px;
 }
